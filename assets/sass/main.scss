@@ -28,22 +28,19 @@
 	margin-right: -15px;
 	margin-left: -15px;
 }
-/*	Grid 
-	12 column grid
-	ie: 100/12 = 8.33%;
-*/
-.one 		{width: 6.866%;}
-.two 		{width: 15.33%;}
-.three 		{width: 23.8;}
-.four		{width: 32.26%}
-.five		{width: 40.73%}
-.six		{width: 49.2%;}
-.seven		{width: 57.66%;}
-.eight		{width: 66.13%}
-.nine		{width: 74.6%}
-.ten		{width: 83.06%}
-.eleven		{width: 91.53}
-.twelve		{width: 100%}
+
+.grid-1 		{	width: 6.866%	}
+.grid-2 		{	width: 15.33%	}
+.grid-3 		{	width: 23.8%	}
+.grid-4			{	width: 32.26%	}
+.grid-5			{	width: 40.73%	}
+.grid-6			{	width: 49.2%	}
+.grid-7			{	width: 57.66%	}
+.grid-8			{	width: 66.13%	}
+.grid-9			{	width: 74.6%	}
+.grid-10		{	width: 83.06%	}
+.grid-11		{	width: 91.53	}
+.grid-12		{	width: 100%		}
 
 /*Clearfix*/
 .clearfix:before,
@@ -53,7 +50,7 @@
 .container:before,
 .container:after {
 	display: table;
-	content " ";
+	content: " ";
 }
 .clearfix:after,
 .row:after,
