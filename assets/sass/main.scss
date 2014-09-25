@@ -1,0 +1,62 @@
+* {
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+	
+	margin: 0;
+	padding: 0;
+	-webkit-font-smoothing: antialiased;
+}
+
+.container {
+	width: 90%; /* 960px */
+	padding-right: 15px;
+	padding-left: 15px;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+.col {
+	display: block;
+	float:left;
+	margin: 1% 0 1% 1.6%;
+}
+
+.col:first-child { margin-left: 0; }
+
+.row {
+	margin-right: -15px;
+	margin-left: -15px;
+}
+/*	Grid 
+	12 column grid
+	ie: 100/12 = 8.33%;
+*/
+.one 		{width: 6.866%;}
+.two 		{width: 15.33%;}
+.three 		{width: 23.8;}
+.four		{width: 32.26%}
+.five		{width: 40.73%}
+.six		{width: 49.2%;}
+.seven		{width: 57.66%;}
+.eight		{width: 66.13%}
+.nine		{width: 74.6%}
+.ten		{width: 83.06%}
+.eleven		{width: 91.53}
+.twelve		{width: 100%}
+
+/*Clearfix*/
+.clearfix:before,
+.clearfix:after,
+.row:before,
+.row:after,
+.container:before,
+.container:after {
+	display: table;
+	content " ";
+}
+.clearfix:after,
+.row:after,
+.container:after {
+	clear: both;
+}
