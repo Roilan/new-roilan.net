@@ -1,4 +1,8 @@
 // General Styles
+a {
+	text-decoration: none;
+}
+
 [class^="icon"] {
 	display: block;
 	width: 32px;
@@ -40,17 +44,12 @@ hr {
 
 .breadcrumbs {
 	list-style: none;
-	margin-bottom: 15px;
+	margin-bottom: 5px;
 	> li {
 		display: inline-block;
 
 		+ li:before {
 			content: "/\00a0";
 		}
-
-		a {
-			text-decoration: none;
-		}
-		
 	}
 }

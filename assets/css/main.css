@@ -108,6 +108,10 @@ body {
   clear: both;
 }
 
+a {
+  text-decoration: none;
+}
+
 [class^="icon"] {
   display: block;
   width: 32px;
@@ -150,16 +154,13 @@ hr {
 
 .breadcrumbs {
   list-style: none;
-  margin-bottom: 15px;
+  margin-bottom: 5px;
 }
 .breadcrumbs > li {
   display: inline-block;
 }
 .breadcrumbs > li + li:before {
   content: "/\00a0";
-}
-.breadcrumbs > li a {
-  text-decoration: none;
 }
 
 header {
@@ -172,6 +173,9 @@ header h2 span {
 
 main {
   text-align: center;
+}
+main #mainHost > p {
+  margin-top: 5px;
 }
 
 @media only screen and (max-width: 480px) {
@@ -196,5 +200,9 @@ main {
 
   header ul li {
     display: inline-block;
+  }
+
+  main section {
+    margin-bottom: 10px;
   }
 }
