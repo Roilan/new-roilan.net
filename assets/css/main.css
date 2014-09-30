@@ -148,6 +148,20 @@ hr {
   opacity: 0.3;
 }
 
+.breadcrumbs {
+  list-style: none;
+  margin-bottom: 15px;
+}
+.breadcrumbs > li {
+  display: inline-block;
+}
+.breadcrumbs > li + li:before {
+  content: "/\00a0";
+}
+.breadcrumbs > li a {
+  text-decoration: none;
+}
+
 header {
   text-align: center;
 }
@@ -155,8 +169,9 @@ header h2 span {
   color: #999;
   font-size: .7em;
 }
-header ul li {
-  display: inline-block;
+
+main {
+  text-align: center;
 }
 
 @media only screen and (max-width: 480px) {
@@ -177,5 +192,9 @@ header ul li {
   .grid-11,
   .grid-12 {
     width: 100%;
+  }
+
+  header ul li {
+    display: inline-block;
   }
 }

@@ -37,3 +37,20 @@ hr {
 	border-color: black;
 	opacity: 0.3;
 }
+
+.breadcrumbs {
+	list-style: none;
+	margin-bottom: 15px;
+	> li {
+		display: inline-block;
+
+		+ li:before {
+			content: "/\00a0";
+		}
+
+		a {
+			text-decoration: none;
+		}
+		
+	}
+}
